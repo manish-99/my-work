@@ -1,0 +1,140 @@
+/*UTIL*/
+.pad-200{
+    padding-top: 200px !important;
+}
+.mar-t-100{
+    margin-top: 100px;
+}
+.pad-t-50{
+    padding-top: 50px;
+}
+.pad-t-100{
+    padding-top: 100px;
+}
+.pad-b-50{
+    padding-bottom: 50px;
+}
+.pad-b-100{
+    padding-bottom: 100px;
+}
+.pos-rel{
+    position: relative;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.custom-nav{
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 0px;
+    border-top: 7px solid #97E34D;
+    transition: 0.5s;
+    padding: 5px;
+}
+.unscrolled-nav-md{
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 0px;
+    border-top: 7px solid #97E34D;
+    transition: 0.5s;
+    padding: 20px;
+}
+.navbar-toggle{
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgba(0,0,0,0) !important;
+    transition: 0.4s;
+}
+.navbar-toggle:hover,.navbar-toggle:focus{
+    background-color: rgba(0,0,0,0) !important;
+    border: 1px solid rgba(0,0,0,0) !important;
+}
+.navbar-toggle span{
+    background-color: #97E34D !important;
+}
+.navbar-toggle:hover span,.navbar-toggle:active span{
+    background-color: #97E34D !important;
+}
+.tilted-navbar-toggle{
+    transition: 0.4s;
+    transform: rotate(90deg);
+}
+.nav-item:hover{
+    background-color: #97E34D;
+    transition: 0.4s;
+}
+.nav-link{
+    color: white !important;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+}
+.nav-item:hover .nav-link{
+    color: #000 !important;
+}
+.in-front-carousel{
+    background-color: #97E34D;
+    opacity: 0.95;
+    margin-top: -30px;
+    position: absolute;
+    left: 10%;
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,1);
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,1);
+}
+.i-f-c-head,.i-f-c-para{
+    text-align: center;
+    padding: 10px;
+}
+.hori{
+    /*margin-left: 50%;*/
+    width: 5%;
+    border: 2px solid #DF4A43;
+}
+.i-f-c-head{
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.i-about-main{
+    font-size: 2.5em;
+}
+.ab-grid h4{
+    color: #DF4A43;
+}
+.jara1{
+    background: url("../img/sec/jara1.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+.jara1-text{
+    font-size: 2em;
+    color: #EDEDED;
+}
+.jara1-sub-text{
+    text-transform: uppercase;
+    color: #97E34D;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.p-c-sec img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 90%;
+    height: 50%;
+    transition: .5s ease;
+}
+.p-c-sec-img{
+    background: url("../img/sec/pnc1c.jpg") no-repeat center center;
+    background-size: cover;
+    height: 250px;
+    width: 20vw;
+}

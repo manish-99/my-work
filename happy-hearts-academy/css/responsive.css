@@ -1,0 +1,36 @@
+@media screen and (max-width:767px)
+{
+    .unscrolled-nav-md{
+        padding: 0px;
+        background-color: rgba(0,0,0,0.7);
+    }
+}
+@media screen and (min-width: 768px)
+{
+	.navbar-brand img{
+	    margin-top: -36px;
+	}
+	.in-front-carousel{
+		margin-top: -50px;
+	}
+	.pad-md-t-100{
+		padding-top: 100px;
+	}
+	.pad-md-b-100{
+		padding-bottom: 100px;
+	}
+	.jara1-text{
+	    font-size: 3em;
+	    color: #EDEDED;
+	}
+	.jara1-sub-text{
+	    text-transform: uppercase;
+	    color: #97E34D;
+	}
+}
+@media screen and (max-width: 991px)
+{
+	.pad-550-sm{
+	    padding-top: 550px !important;
+	}
+}

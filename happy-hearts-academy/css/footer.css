@@ -1,0 +1,27 @@
+footer{
+  background-color: #040707;
+  color: white;
+  font-size: 1.1em;
+}
+.n-head{
+  font-size: 2em;
+  color: #fff;
+}
+footer ul{
+  color: #97E34D;
+}
+footer ul li a{
+  text-decoration: none !important;
+  color: white !important;
+}
+footer .fa{
+  color: #97E34D;
+}
+footer input{
+  border-radius: 0px !important;
+}
+.up{
+  position: absolute;
+  margin-left: 90vw;
+  margin-top: -5%;
+}
