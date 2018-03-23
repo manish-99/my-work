@@ -25,3 +25,13 @@ footer input{
   margin-left: 90vw;
   margin-top: -5%;
 }
+.btn-con{
+  background-color: #97E34D;
+  border-radius: 0px;
+  color: white;
+}
+.btn-con:focus{
+  background-color: #97E34D;
+  border-radius: 0px;
+  color: white;
+}
